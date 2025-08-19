@@ -11,7 +11,7 @@ This project detects whether a person is wearing a face mask or not using a Conv
 ## 📊 Dataset
 The dataset is not included in this repository due to size limitations.  
 You can download it from the following link:  
-👉 [Download Dataset](PUT-YOUR-LINK-HERE)  
+👉 [Download Dataset]((https://www.kaggle.com/datasets/omkargurav/face-mask-dataset))  
 After downloading, place it inside the `data/` folder.
 
 ## 🧠 Model
