@@ -44,10 +44,10 @@ Here are some examples showing the model in action.
 
 ****
 **Example 1: Person with a mask**
-<img src="https://github.com/ammarelbordeny/Face-Mask-Detection-/blob/main/images/WhatsApp%20Image%202025-08-19%20at%2015.02.45_04d94ec7.jpg" alt="Person with mask" width="300">
+<img src="https://github.com/ammarelbordeny/Face-Mask-Detection-/blob/main/images/WhatsApp%20Image%202025-08-19%20at%2015.02.45_04d94ec7.jpg" alt="Person with mask" width="500">
 
 **Example 2: Person without a mask**
-<img src="" alt="Person without mask" width="300">
+<img src="https://github.com/ammarelbordeny/Face-Mask-Detection-/blob/main/images/WhatsApp%20Image%202025-08-19%20at%2015.02.45_7ddebb7a.jpg" alt="Person without mask" width="500">
 ****
 
 ## 💾 Dataset
