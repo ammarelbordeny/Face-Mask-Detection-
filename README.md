@@ -30,3 +30,30 @@ Make sure you have **Python 3.9+** installed.
 ```bash
 git clone [https://github.com/ammarelbordeny/Face-Mask-Detection-.git](https://github.com/ammarelbordeny/Face-Mask-Detection-.git)
 cd Face-Mask-Detection-
+
+
+3. Navigate to the Project Folder
+Bash
+
+cd Face-Mask-Detection-
+4. Install Required Libraries
+Install all the necessary libraries by running the following command:
+
+Bash
+
+pip install -r requirements.txt
+5. How to Use
+To test the model, you can use the code in the Face_Mask_Detection.ipynb notebook to load your own images and get a prediction.
+
+📂 Project Files
+Face_Mask_Detection.ipynb: The Jupyter notebook containing the complete code for training the model and making predictions on images.
+
+mask_model.h5: The final trained model file.
+
+requirements.txt: A list of all Python libraries needed for the project.
+
+📝 License
+This project is released under the MIT License. For more information, please see the LICENSE file.
+
+Developed by Ammar ElBordeny
+
