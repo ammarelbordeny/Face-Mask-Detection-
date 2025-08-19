@@ -16,12 +16,6 @@ This project is a real-time **Face Mask Detection** system built with a **Convol
 * **User-friendly Interface:** A simple and intuitive web application, built with **Streamlit**, allows users to test the system directly through their browser.
 * **Pre-trained Model:** The repository includes the pre-trained model file (`mask_model.h5`), so you can run the application immediately without needing to train the model yourself.
 
-## 📊 Model Performance
-
-The trained CNN model was evaluated and achieved the following performance metrics:
-
-* **Accuracy:** **99.3%**
-* **Validation Loss:** **0.02**
 
 ## 📂 Project Files Breakdown
 
@@ -49,16 +43,16 @@ To run the application, follow these simple steps. Make sure you have **Python**
 Here are some examples showing the model in action.
 
 ****
+**Example 1: Person with a mask**
+<img src="C:\Users\Lenovo\OneDrive\Desktop\WhatsApp Image 2025-08-19 at 15.02.45_04d94ec7.jpg" alt="Person with mask" width="300">
 
+**Example 2: Person without a mask**
+<img src="اسم_الصورة_التانية.jpg" alt="Person without mask" width="300">
 ****
 
 ## 💾 Dataset
 
 The model was trained on the **[Face Mask Detection dataset from Kaggle](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)**, which is a high-quality dataset containing thousands of images.
 
-## 📝 License
-
-This project is released under the **MIT License**.
-
 ---
-*Developed by Ammar ElBordeny*
+*Developed by Ammar Ahmed*
