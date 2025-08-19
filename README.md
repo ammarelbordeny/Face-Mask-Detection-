@@ -44,7 +44,7 @@ Here are some examples showing the model in action.
 
 ****
 **Example 1: Person with a mask**
-<img src="C:\Users\Lenovo\OneDrive\Desktop\WhatsApp Image 2025-08-19 at 15.02.45_04d94ec7.jpg" alt="Person with mask" width="300">
+<img src="https://github.com/ammarelbordeny/Face-Mask-Detection-/blob/main/images/WhatsApp%20Image%202025-08-19%20at%2015.02.45_04d94ec7.jpg" alt="Person with mask" width="300">
 
 **Example 2: Person without a mask**
 <img src="اسم_الصورة_التانية.jpg" alt="Person without mask" width="300">
