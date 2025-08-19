@@ -1,26 +1,27 @@
-# 😷 Face Mask Detection using CNN & Streamlit
-This project detects whether a person is wearing a face mask or not using a Convolutional Neural Network (CNN). It also provides a simple Streamlit web app for real-time prediction.
+# Face Mask Detection  
 
-## 📂 Project Structure
-- app.py → Streamlit application  
-- requirements.txt → List of dependencies  
-- FaceMaskDetection.ipynb → Jupyter notebook (model training code)  
-- model/ → Folder for saved models (.h5)  
-- data/ → Dataset (not included, see below)  
+This project is a **Face Mask Detection System** built using **Deep Learning (CNN)**.  
+It detects whether a person is wearing a mask or not in real time using the webcam or images.  
 
-## 📊 Dataset
-The dataset is not included in this repository due to size limitations.  
-You can download it from the following link:  
-👉 [Download Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)  
-After downloading, place it inside the `data/` folder.
+---
 
-## 🧠 Model
-The trained CNN model is saved as `.h5` and stored in the `model/` folder.  
-If the model file is too large for GitHub, you can also download it here:  
-👉 [Download Model](PUT-YOUR-LINK-HERE)
+## 📂 Project Structure  
 
-## ⚙️ Installation
-1. Clone this repository:
+- `app.py` → Streamlit app to run the model.  
+- `notebook.ipynb` → Jupyter/Colab notebook with model training code.  
+- `requirements.txt` → List of dependencies.  
+- `model.h5` → Saved trained model (⚠️ not uploaded here because of file size limit).  
+- `data/` → Dataset (not uploaded here, see Kaggle link below).  
+
+---
+
+## 📊 Dataset  
+
+The dataset is taken from **Kaggle**:  
+👉 [Face Mask Detection Dataset](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)  
+
+You can download it using the Kaggle API inside Google Colab:  
+
 ```bash
-git clone https://github.com/your-username/face-mask-detection.git
-cd face-mask-detection
+!kaggle datasets download -d omkargurav/face-mask-dataset
+!unzip face-mask-dataset.zip -d data/
