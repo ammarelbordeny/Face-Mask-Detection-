@@ -1,59 +1,64 @@
-# 😷 Face Mask Detection
+# 😷 Face Mask Detection using CNN
 
 ![Project Status](https://img.shields.io/badge/Status-Complete-green)
 ![Python Version](https://img.shields.io/badge/Python-3.9+-blue)
-![Dependencies](https://img.shields.io/badge/Dependencies-TensorFlow%2C%20OpenCV-orange)
+![Dependencies](https://img.shields.io/badge/Dependencies-TensorFlow%2C%20OpenCV%2C%20Streamlit-orange)
 ![License](https://img.shields.io/badge/License-MIT-purple)
 
 ## 📌 Project Overview
 
-This project is a simple yet effective **Face Mask Detection** system built using a **Convolutional Neural Network (CNN)**. The purpose of this project is to take a single image as input and determine whether the person in the image is wearing a face mask or not.
-
-The core of the project is the trained CNN model (`mask_model.h5`), which is used to perform a quick and accurate classification. The project is designed to be straightforward and focused solely on image-based detection.
+This project is a real-time **Face Mask Detection** system built with a **Convolutional Neural Network (CNN)**. The system processes live video feeds from a webcam to automatically detect faces and classify whether a person is wearing a face mask or not. The project provides a user-friendly web interface using **Streamlit** to demonstrate its functionality.
 
 ## 🚀 Key Features
 
-* **Image-based Detection:** The system processes static images to detect a face mask.
-* **Trained CNN Model:** The project uses a pre-trained model for accurate and efficient classification.
-* **Simple Interface:** The code provides a simple way to test the model on any image.
+* **Real-time Detection:** The system processes live video streams from a webcam for instant detection.
+* **Custom CNN Model:** The core of the project is a powerful CNN model, trained from scratch using **TensorFlow** and **Keras** to achieve high accuracy.
+* **User-friendly Interface:** A simple and intuitive web application, built with **Streamlit**, allows users to test the system directly through their browser.
+* **Pre-trained Model:** The repository includes the pre-trained model file (`mask_model.h5`), so you can run the application immediately without needing to train the model yourself.
 
-## 🛠️ Getting Started
+## 📊 Model Performance
 
-To run this project on your machine, follow these steps.
+The trained CNN model was evaluated and achieved the following performance metrics:
 
-### 1. Prerequisites
+* **Accuracy:** **99.3%**
+* **Validation Loss:** **0.02**
 
-Make sure you have **Python 3.9+** installed.
+## 📂 Project Files Breakdown
 
-### 2. Clone the Repository
+* `Face_Mask_Detection.ipynb`: This Jupyter Notebook contains all the steps of the machine learning pipeline, including **data preprocessing**, **model architecture**, **training**, and **evaluation**. It serves as the main documentation for how the model was created.
+* `app.py`: This Python script is the heart of the web application. It uses the trained model (`mask_model.h5`) to perform real-time detection and presents the output via **Streamlit**.
+* `mask_model.h5`: This is the **trained CNN model file**. It's a key component that the `app.py` script relies on to perform predictions.
+* `requirements.txt`: This file lists all the necessary Python libraries and their specific versions required to run the project.
 
-```bash
-git clone [https://github.com/ammarelbordeny/Face-Mask-Detection-.git](https://github.com/ammarelbordeny/Face-Mask-Detection-.git)
-cd Face-Mask-Detection-
+## 🛠️ How to Run the Application
 
+To run the application, follow these simple steps. Make sure you have **Python** installed on your system.
 
-3. Navigate to the Project Folder
-Bash
+1.  **Install Required Libraries:** Open your terminal and run this command to install all the dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+2.  **Start the Application:** After installation, run the Streamlit application with the following command:
+    ```bash
+    streamlit run app.py
+    ```
+    This will launch a new tab in your web browser with the real-time detection interface.
 
-cd Face-Mask-Detection-
-4. Install Required Libraries
-Install all the necessary libraries by running the following command:
+## 📸 Demo
 
-Bash
+Here are some examples showing the model in action.
 
-pip install -r requirements.txt
-5. How to Use
-To test the model, you can use the code in the Face_Mask_Detection.ipynb notebook to load your own images and get a prediction.
+****
 
-📂 Project Files
-Face_Mask_Detection.ipynb: The Jupyter notebook containing the complete code for training the model and making predictions on images.
+****
 
-mask_model.h5: The final trained model file.
+## 💾 Dataset
 
-requirements.txt: A list of all Python libraries needed for the project.
+The model was trained on the **[Face Mask Detection dataset from Kaggle](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)**, which is a high-quality dataset containing thousands of images.
 
-📝 License
-This project is released under the MIT License. For more information, please see the LICENSE file.
+## 📝 License
 
-Developed by Ammar ElBordeny
+This project is released under the **MIT License**.
 
+---
+*Developed by Ammar ElBordeny*
