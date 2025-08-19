@@ -40,15 +40,13 @@ To run the application, follow these simple steps. Make sure you have **Python**
 
 ## 📸 Demo
 
-Here are some examples showing the model in action.
-
-****
-**Example 1: Person with a mask**
+### Example 1: Person with a mask
 <img src="https://github.com/ammarelbordeny/Face-Mask-Detection-/blob/main/images/WhatsApp%20Image%202025-08-19%20at%2015.02.45_04d94ec7.jpg" alt="Person with mask" width="500">
 
-**Example 2: Person without a mask**
+### Example 2: Person without a mask
 <img src="https://github.com/ammarelbordeny/Face-Mask-Detection-/blob/main/images/WhatsApp%20Image%202025-08-19%20at%2015.02.45_7ddebb7a.jpg" alt="Person without mask" width="500">
-****
+
+
 
 ## 💾 Dataset
 
